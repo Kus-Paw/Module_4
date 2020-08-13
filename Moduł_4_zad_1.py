@@ -23,16 +23,14 @@ def polidrom_2(word):
     word = word.replace(',', '')
     word = word.replace('.', '')
    
-
     for i in range (len(word)):
-        if (word.isalnum()) == True: 
-            if word[:] == word[:: -1] and (word[:]) == word[:: -1]:
-                return True
-            else:
-                return False
+        (word.isalnum()) == True
+        if word[:] == word[:: -1] and (word[:]) == word[:: -1]:
+            return True
         else:
             return False
+    
 print(polidrom_2('Atokiwizdziwi kota'))
 print(polidrom_2("A to Kamela, ale ma kota."))
-print(polidrom_2("alpha10"))
+print(polidrom_2("alpaka1"))
 print(polidrom_2("mam!"))
